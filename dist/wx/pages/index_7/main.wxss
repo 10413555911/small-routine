@@ -1,0 +1,43 @@
+
+.wrap {
+  position: relative;
+}
+.section ._video {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 36rpx;
+  background: rgb(241, 241, 241);
+}
+.vido {
+  height: 400rpx;
+  background: red;
+}
+.section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.client {
+  text-align: center;
+}
+.bodys {
+  width: 100%;
+  height: 540rpx;
+  border: red;
+  overflow-y: auto;
+  border: 2rpx solid #cccc;
+}
+.shoop {
+  font-size: 26rpx;
+  border: 2rpx dashed black;
+  width: 180rpx;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+}

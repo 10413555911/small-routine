@@ -1,0 +1,6 @@
+<import src="/components/banner.vue.wxml" />
+<import src="/components/classify.vue.wxml" /><template name="7cc3d589">
+  <view class="_div data-v-df3798f4 wrap">
+    <view class="_div data-v-df3798f4 header"> 图库 <label class="_span data-v-df3798f4 back" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">我的</label></view> <template data="{{...$root[$kk+'0'], $root}}" is="2b783715"></template> <template data="{{...$root[$kk+'1'], $root}}" is="4b39962d"></template>
+  </view>
+</template>

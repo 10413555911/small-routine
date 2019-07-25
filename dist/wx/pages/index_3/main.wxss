@@ -1,0 +1,54 @@
+
+.client {
+  overflow-x: auto;
+  flex: 1;
+  width: 90%;
+  background: rgb(243, 239, 239);
+  margin: 0 auto;
+}
+.block {
+  margin-top: 30rpx;
+  width: 98%;
+  background: #ffffff;
+  display: flex;
+  border: 2rpx solid #ccc;
+}
+.des {
+  font-size: 24rpx;
+  word-wrap: break-word;
+  text-indent: 50rpx;
+}
+.lunar {
+  font-size: 30rpx;
+}
+.title {
+  font-size: 30rpx;
+}
+.block ._div {
+  flex: 1;
+  flex-direction: column;
+}
+.imgs {
+  height: 360rpx;
+  width: 45%;
+}
+.back {
+  position: absolute;
+  width: 60rpx;
+  height: 36rpx;
+  border: 2rpx solid #000000;
+  z-index: 999;
+  left: 20rpx;
+  text-align: center;
+  top: 30rpx;
+}
+.header {
+  position: relative;
+  height: 100rpx;
+  width: 100%;
+  display: flex;
+  font-size: 40rpx;
+  background: pink;
+  text-indent: 290rpx;
+  line-height: 100rpx;
+}

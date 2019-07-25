@@ -1,0 +1,20 @@
+<template name="52fa7007">
+  <view class="_div data-v-669ace04 wrap"><label class="_span data-v-669ace04 back" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">返回</label>
+    <view class="_div data-v-669ace04 header">历史今日</view>
+    <view class="_div data-v-669ace04 client">
+      <view class="_div data-v-669ace04 block" wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-669ace04 imgs" wx:if="{{item.pic}}">
+          <image src="{{item.pic}}" alt class="_img data-v-669ace04"></image>
+        </view>
+        <view class="_div data-v-669ace04 imgs" wx:if="{{!item.pic}}">
+          <image src="http://www.sucaijishi.com/uploadfile/2017/0510/20170510104938727.gif" alt class="_img data-v-669ace04"></image>
+        </view>
+        <view class="_div data-v-669ace04">
+          <view class="_div data-v-669ace04 lunar">{{item.lunar}}</view>
+          <view class="_div data-v-669ace04 title">{{item.title}}</view>
+          <view class="_div data-v-669ace04 des">{{item.des}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

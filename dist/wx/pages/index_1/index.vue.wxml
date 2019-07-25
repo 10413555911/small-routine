@@ -1,0 +1,16 @@
+<template name="29310a85">
+  <view class="_div data-v-3cd16882 wrap">
+    <view class="_div data-v-3cd16882 banner">
+      <image src="http://img01.sogoucdn.com/app/a/100520021/5a0d929ca3b0aa7c20a72d886435fa8a" alt class="_img data-v-3cd16882"></image>
+    </view>
+    <view class="_div data-v-3cd16882 foont">
+      <view class="_div data-v-3cd16882 log">
+        <image src="http://cdn2.ettoday.net/images/1385/1385802.jpg" alt class="_img data-v-3cd16882"></image>
+      </view>
+      <view class="_div data-v-3cd16882 dome_1" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">段子</view>
+      <view class="_div data-v-3cd16882 dome_2" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">图片</view>
+      <view class="_div data-v-3cd16882 dome_3" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">视频</view>
+    </view>
+    <view class="_div data-v-3cd16882 buttom"><label class="_span data-v-3cd16882 yi">唯一客服:</label> <label style="color:red" class="_span data-v-3cd16882">17611790602</label></view>
+  </view>
+</template>

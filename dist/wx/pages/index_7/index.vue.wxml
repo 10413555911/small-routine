@@ -1,0 +1,15 @@
+<template name="db3221fe">
+  <view class="_div data-v-8ba4cdf0 wrap">
+    <view class="_div data-v-8ba4cdf0 header">视频</view>
+    <view class="_div data-v-8ba4cdf0 section">
+      <view class="_div data-v-8ba4cdf0 vido"><video vslide-gesture="true" show-fullscreen-btn="true" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" class="_video data-v-8ba4cdf0"></video></view>
+      <view class="_div data-v-8ba4cdf0 client"><button bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-8ba4cdf0">获取更多视频</button>
+        <view class="_div data-v-8ba4cdf0 bodys" style=" {{('display:' + none + ';')}}"></view>
+        <view class="_div data-v-8ba4cdf0">非wifi状态下会消耗大量流量</view>
+        <view class="_div data-v-8ba4cdf0 shoop" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+          <navigator url="{{urls}}" class="_a data-v-8ba4cdf0">购买热门电影票</navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

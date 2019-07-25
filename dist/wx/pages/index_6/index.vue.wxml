@@ -1,0 +1,18 @@
+<template name="11a8884a">
+  <view class="_div data-v-2548e647 wrap">
+    <view class="_div data-v-2548e647 header">视频</view>
+    <view class="_div data-v-2548e647 section">
+      <view class="_div data-v-2548e647 vido"><video class="_video data-v-2548e647 vid" vslide-gesture="true" show-fullscreen-btn="true" object-fit="fill" src="/auido/首页.mp4"></video></view>
+      <view class="_div data-v-2548e647 client"><button bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-2548e647">获取更多视频</button>
+        <view class="_div data-v-2548e647 bodys" style=" {{('display:' + none + ';')}}">
+          <view class="_div data-v-2548e647 bodys_1"><video vslide-gesture="true" show-fullscreen-btn="true" src="/auido/123.mp4" class="_video data-v-2548e647"></video> <label class="_span data-v-2548e647">大狗:你在扒拉我一下？</label></view>
+          <view class="_div data-v-2548e647 bodys_1"><video vslide-gesture="true" show-fullscreen-btn="true" src="/auido/徐俊聪.mp4" class="_video data-v-2548e647"></video> <label class="_span data-v-2548e647">黄胶鞋 七分裤 职业法师刘海柱</label></view>
+          <view class="_div data-v-2548e647 bodys_1"><video vslide-gesture="true" show-fullscreen-btn="true" src="/auido/111.mp4" class="_video data-v-2548e647"></video> <label class="_span data-v-2548e647"></label></view>
+          <view class="_div data-v-2548e647 bodys_1"><video vslide-gesture="true" show-fullscreen-btn="true" src="/auido/1234.mp4" class="_video data-v-2548e647"></video> <label class="_span data-v-2548e647"></label></view>
+        </view>
+        <view class="_div data-v-2548e647">非wifi状态下会消耗大量流量</view>
+        <view class="_div data-v-2548e647 shoop" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"><label class="_span data-v-2548e647 shoop">点击购买电影票</label></view>
+      </view>
+    </view>
+  </view>
+</template>

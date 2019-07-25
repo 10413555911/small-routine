@@ -1,0 +1,42 @@
+<template name="83d48574">
+  <view class="_div data-v-5c93c97a wrap">
+    <view class="_div data-v-5c93c97a header">
+      <view class="_div data-v-5c93c97a log">搞笑段子</view>
+      <view class="_div data-v-5c93c97a log_1">
+        <view class="_p data-v-5c93c97a time">{{nowTime}}</view>
+        <view class="_p data-v-5c93c97a time_1" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">往时今日</view>
+      </view>
+    </view>
+    <view class="_div data-v-5c93c97a client">
+      <scroll-view scroll-y style="height: 100%" bindscroll="handleProxy" bindscrolltolower="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_scroll-view data-v-5c93c97a">
+        <view class="_div data-v-5c93c97a block" wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+          <view class="_div data-v-5c93c97a peak">
+            <view class="_p data-v-5c93c97a">耿增发的帖子</view>
+            <view class="_p data-v-5c93c97a">举报</view>
+          </view>
+          <view class="_div data-v-5c93c97a subject">{{item.content}}</view>
+          <view class="_div data-v-5c93c97a client_fot">
+            <view bindtap="handleProxy" class="_div data-v-5c93c97a iconfont icon-dianzan active" data-eventid="{{'1_'+index}}" data-comkey="{{$k}}"></view>
+            <view class="_div data-v-5c93c97a iconfont icon-cai"></view>
+            <view class="_div data-v-5c93c97a iconfont icon-zhuanfa"></view>
+            <view class="_div data-v-5c93c97a iconfont icon-pinglun"></view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+    <view class="_div data-v-5c93c97a foot">
+      <view bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_div data-v-5c93c97a {{ind == 0 ? 'iconfont icon-xiazai45 active' : 'iconfont icon-xiazai45 '}}">
+        <view class="_p data-v-5c93c97a">首页</view>
+      </view>
+      <view class="_div data-v-5c93c97a iconfont icon-faxian">
+        <view class="_p data-v-5c93c97a">发现</view>
+      </view>
+      <view class="_div data-v-5c93c97a iconfont icon-shenhe">
+        <view class="_p data-v-5c93c97a">审核</view>
+      </view>
+      <view bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}" class="_div data-v-5c93c97a {{ind == 3 ? 'iconfont icon-wode active' : 'iconfont icon-wode '}}">
+        <view class="_p data-v-5c93c97a">我的</view>
+      </view>
+    </view>
+  </view>
+</template>

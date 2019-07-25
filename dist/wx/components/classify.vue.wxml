@@ -1,0 +1,16 @@
+<template name="4b39962d">
+  <view class="_div data-v-1f411d3a classify">
+    <view class="_div data-v-1f411d3a tab_1"><label bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'0_'+index}}" data-comkey="{{$k}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item" class="_span data-v-1f411d3a {{ind == index ? 'active' : ''}}">{{item.title}}</label></view>
+    <view class="_div data-v-1f411d3a block">
+      <view class="_div data-v-1f411d3a user_1" wx:key="ever" key="{{ever}}" wx:for="{{list[ind].child}}" wx:for-index="ever" wx:for-item="i">
+        <view class="_div data-v-1f411d3a img_1">
+          <image src="{{i.url}}" alt class="_img data-v-1f411d3a"></image>
+        </view>
+        <view class="_div data-v-1f411d3a text">
+          <view class="_div data-v-1f411d3a name_1">作者:{{i.name}}</view>
+          <view bindtap="handleProxy" data-eventid="{{'1_'+ever}}" data-comkey="{{$k}}" class="_div data-v-1f411d3a {{i.flag ? 'iconfont icon-faxian' : 'iconfont icon-aixin'}}"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

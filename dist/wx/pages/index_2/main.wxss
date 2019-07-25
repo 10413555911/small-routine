@@ -1,0 +1,96 @@
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+.foot {
+  height: 100rpx;
+  width: 100%;
+  display: flex;
+  border-top: 2rpx solid #cccccc;
+  justify-content: space-around;
+}
+.foot ._div {
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 50rpx;
+}
+.foot ._div ._p {
+  font-size: 26rpx;
+  color: black;
+}
+.header {
+  height: 100rpx;
+  width: 100%;
+  display: flex;
+  font-size: 40rpx;
+  background: pink;
+}
+.log {
+  height: 100%;
+  width: 75%;
+  text-indent: 300rpx;
+  line-height: 100rpx;
+}
+.log_1 {
+  flex: 1;
+  flex-direction: column;
+}
+.client {
+  flex: 1;
+  width: 90%;
+  background: rgb(243, 239, 239);
+  margin: 0 auto;
+  overflow-y: auto;
+}
+.time {
+  font-size: 20rpx;
+  margin-top: 20rpx;
+}
+.time_1 {
+  font-size: 26rpx;
+  text-indent: 20rpx;
+  width: 80%;
+  border: 2rpx solid black;
+}
+.block {
+  margin-top: 30rpx;
+  width: 98%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border: 2rpx solid #ccc;
+}
+.peak {
+  height: 30%;
+  display: flex;
+  color: #666666;
+}
+.peak ._p:nth-child(1) {
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+.peak ._p:nth-child(2) {
+  margin-left: 60%;
+  color: black;
+}
+.subject {
+  flex: 1;
+  width: 80%;
+  margin-top: 10rpx;
+  margin: 0 auto;
+  word-wrap: break-word;
+  text-indent: 50rpx;
+  margin-top: 6rpx;
+}
+.client_fot {
+  display: flex;
+  margin-top: 20rpx;
+  flex: 2;
+  justify-content: space-around;
+}
+scroll-view {
+  height: 100%;
+}

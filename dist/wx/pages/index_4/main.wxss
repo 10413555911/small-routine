@@ -1,0 +1,94 @@
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.header {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 36rpx;
+  background: rgb(241, 241, 241);
+}
+.letter {
+  width: 100%;
+  height: 20%;
+  background: pink;
+  display: flex;
+}
+.prode {
+  overflow: hidden;
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  margin: 20rpx 0 0 20rpx;
+}
+.prode ._img {
+  width: 100%;
+  height: 100%;
+}
+.name {
+  font-size: 36rpx;
+  flex: 1;
+  height: 60rpx;
+  margin-top: 60rpx;
+  text-indent: 20rpx;
+}
+.foot {
+  height: 100rpx;
+  width: 100%;
+  display: flex;
+  border-top: 2rpx solid #cccccc;
+  justify-content: space-around;
+}
+.foot ._div {
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 50rpx;
+}
+.foot ._div ._p {
+  font-size: 26rpx;
+  color: black;
+}
+.client {
+  width: 95%;
+  flex: 1;
+  margin: 0 auto;
+  border-left: 2rpx solid #cccccc;
+  border-right: 2rpx solid #cccccc;
+  margin-top: 16rpx;
+}
+.user_1 {
+  flex-shrink: 0;
+  display: flex;
+  width: 97%;
+  height: 300rpx;
+  flex-direction: column;
+  margin-top: 40rpx;
+  border: 2rpx solid #000000;
+}
+.img_1 {
+  width: 90%;
+  height: 240rpx !important;
+  margin: 0 auto;
+}
+.block {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.likes {
+  width: 100%;
+  height: 60rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.client_1 {
+  flex: 1;
+  overflow-y: auto;
+}

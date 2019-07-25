@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index_1/main",
+    "pages/index_2/main",
+    "pages/index_3/main",
+    "pages/index_4/main",
+    "pages/index_5/main",
+    "pages/index_6/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "趣",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap38.json"
+}

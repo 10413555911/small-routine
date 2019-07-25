@@ -1,0 +1,45 @@
+<template name="3041ba70">
+  <view class="_div data-v-0900fe76 wrap">
+    <view class="_div data-v-0900fe76 header">我的</view>
+    <view class="_div data-v-0900fe76 letter">
+      <view class="_div data-v-0900fe76 prode">
+        <image src="https://i04picsos.sogoucdn.com/a257afc0348b8b6d" alt class="_img data-v-0900fe76"></image>
+      </view>
+      <view class="_div data-v-0900fe76 name">昵称:{{name}}</view>
+    </view>
+    <view class="_div data-v-0900fe76 likes">我喜欢的</view>
+    <view class="_div data-v-0900fe76 client_1">
+      <view class="_div data-v-0900fe76 client" wx:if="{{list.length}}">
+        <view class="_div data-v-0900fe76 block">
+          <view class="_div data-v-0900fe76 user_1" wx:key="ever" key="{{ever}}" wx:for="{{list}}" wx:for-index="ever" wx:for-item="i">
+            <view class="_div data-v-0900fe76 img_1">
+              <image src="{{i.url}}" alt class="_img data-v-0900fe76"></image>
+            </view>
+            <view class="_div data-v-0900fe76 text">
+              <view class="_div data-v-0900fe76">作者:{{i.name}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_div data-v-0900fe76 client" wx:if="{{!list.length}}">
+        <view class="_div data-v-0900fe76 block">
+          <view class="_div data-v-0900fe76 user_1">无</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-0900fe76 foot">
+      <view bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_div data-v-0900fe76 {{ind == 0 ? 'iconfont icon-xiazai45 active' : 'iconfont icon-xiazai45 '}}">
+        <view class="_p data-v-0900fe76">首页</view>
+      </view>
+      <view class="_div data-v-0900fe76 iconfont icon-faxian">
+        <view class="_p data-v-0900fe76">发现</view>
+      </view>
+      <view class="_div data-v-0900fe76 iconfont icon-shenhe">
+        <view class="_p data-v-0900fe76">审核</view>
+      </view>
+      <view bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_div data-v-0900fe76 {{ind == 3 ? 'iconfont icon-wode active' : 'iconfont icon-wode '}}">
+        <view class="_p data-v-0900fe76">我的</view>
+      </view>
+    </view>
+  </view>
+</template>
